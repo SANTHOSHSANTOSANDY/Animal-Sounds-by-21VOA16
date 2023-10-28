@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Animals Sound Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 id="title">Guess the Animal Sounds🦁</h1>
+    <div class="set">
+        <button class="animal-button cat" data-key="87" data-animal="Cat">w</button>
+        <button class="animal-button cow" data-key="65" data-animal="Cow">a</button>
+        <button class="animal-button dog" data-key="83" data-animal="Dog">s</button>
+        <button class="animal-button elephant" data-key="68" data-animal="Elephant">d</button>
+        <button class="animal-button horse" data-key="74" data-animal="Horse">j</button>
+        <button class="animal-button tiger" data-key="75" data-animal="Tiger">k</button>
+    </div>
+
+    <footer id="message">Click on the button or press the key to play the sound</footer>
+    <div id="hint"></div>
+    <div id="score">Score: 0</div>
+
+    <audio data-key="87" src="sounds/cat.mp3"></audio>
+    <audio data-key="65" src="sounds/cow.mp3"></audio>
+    <audio data-key="83" src="sounds/dog.mp3"></audio>
+    <audio data-key="68" src="sounds/elephant.mp3"></audio>
+    <audio data-key="74" src="sounds/horse.mp3"></audio>
+    <audio data-key="75" src="sounds/tiger.mp3"></audio>
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
